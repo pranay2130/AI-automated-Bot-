@@ -1,0 +1,114 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - corona_intro
+  - corona_Prevention
+  - corona_homesick
+  - contact_tracing
+  - corona_symptoms
+  - utter_corona_last
+  - utter_corona_pets
+
+responses:
+
+  utter_greet:
+  - text: "Hey! This is py21\
+          \ how can i help you"
+
+  utter_corona_intro:
+  - text: "COVID-19 is a new disease, caused by a novel (or new) coronavirus that has not previously been seen in humans. Because it is a new virus, scientists are learning more each day. Although most people who have COVID-19 have mild symptoms, COVID-19 can also cause severe illness and even death. Some groups, including older adults and people who have certain underlying medical conditions, are at increased risk of severe illness."
+
+  utter_goodbye:
+  - text: "Bye Be safe Wear Mask "
+
+  utter_iamabot:
+  - text: "I am a bot, powered by py21."
+  
+  utter_corona_spread:
+  - text: |+
+          COVID-19 is thought to spread mainly through close contact from person to person,
+          including between people who are physically near each other (within about 6 feet).
+          \\\\\\\\
+          Community spread means people have been infected with the virus in an area,
+          including some who are not sure how or where they became infected.
+          Each health department determines community spread differently based on local conditions.
+          \\\\\\\\\
+          CDC has no data to suggest that this new coronavirus or other similar coronaviruses are spread by mosquitoes or ticks.
+          The main way that COVID-19 spreads is from person to person.
+
+  utter_Prevention:
+  - text: |+
+      CDC recommends that people wear masks in public settings, at events and gatherings, 
+      and anywhere they will be around other people. When you wear a mask, 
+      you protect others as well as yourself. Masks work best when everyone wears one.
+      For more details use this link https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/about-face-coverings.html
+      \\\\\\\\\\
+      Handwashing is one of the best ways to protect yourself and your family from getting sick.
+      Wash your hands often with soap and water for at least 20 seconds, 
+      especially after blowing your nose, coughing, or sneezing; going to the bathroom; 
+      and before eating or preparing food.
+      \\\\\\\\\\\\
+  
+  utter_homesick:
+  - text: |+ 
+      *Stay home when you are sick, except to get medical care.
+      *If you have COVID-19, tell your close contacts so that they can quarantine at home and get tested.
+      *Use a separate room and bathroom for sick household members (if possible).
+      *Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food.
+      *If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol. Always wash hands with soap and water if hands are visibly dirty.
+      *Provide your sick household member with clean disposable facemasks to wear at home, if available, to help prevent spreading COVID-19 to others. Everyone else should wear masks at home. Masks offer some protection to the wearer and are also meant to protect those around the wearer, in case they are infected with the virus that causes COVID-19.​
+      *Clean the sick room and bathroom, as needed, to avoid unnecessary contact with the sick person.    
+
+  utter_contact_tracing:
+  - text: |+
+      Contact tracing slows the spread of COVID-19 by
+      Letting people know they may have been exposed to COVID-19 and should monitor their health for signs and symptoms of COVID-19
+      Helping people who may have been exposed to COVID-19 get tested
+      Asking people to self-isolate if they have COVID-19 or self-quarantine if they are a close contact of someone with COVID-19
+      ////////
+      Discussions with health department staff are confidential. 
+      This means that your personal and medical information will be kept private and 
+      only shared with those who may need to know, like your health care provider.
+      ////////
+      The health department staff will not ask you for
+      Money
+      Social Security number
+      Bank account information
+      Salary information, or
+      Credit card numbers
+
+  utter_corona_symptoms:
+  - text: |+
+      COVID-19 can cause a range of symptoms, including:
+
+      fever
+      cough
+      trouble breathing
+      symptoms of a cold such as a sore throat, congestion, or a runny nose
+      chills
+      muscle pain
+      headache
+      a loss of taste or smell
+      nausea or vomiting
+      diarrhea
+      tiredness      
+      
+  utter_corona_last:
+  - text: |+
+      A study released from the New England Journal of Medicine states that the virus can last on
+      surfaces like cardboard for 24 hours, on copper for 4 hours, on stainless steel and plastic 
+      for 3 days and can last in the air up to 3 hours. However, this time depends on what type of
+      surface it is, what the environmental conditions are (temperature/humidity), how many viral
+      particles were inoculated on the surface.
+      
+  utter_corona_pets:
+  - text: |+
+      No. There is no evidence that companion animals or pets such as cats and dogs have been 
+      infected or could spread the virus that causes COVID-19
+      
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
