@@ -1,0 +1,74 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+
+- story: corona intro
+  steps:
+  - intent: corona_intro
+  - action: utter_corona_intro
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: bot challange
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: corona spread
+  steps:
+  - intent: corona_spread
+  - action: utter_corona_spread
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: corona Prevention
+  steps:
+  - intent: corona_Prevention
+  - action: utter_Prevention
+  - intent: goodbye
+  - action: utter_goodbye  
+
+- story: corona home sick
+  steps:
+  - intent: corona_homesick
+  - action: utter_homesick
+  - intent: goodbye
+  - action: utter_goodbye  
+
+- story: contact tracing
+  steps:
+  - intent: contact_tracing
+  - action: utter_contact_tracing
+  - intent: goodbye
+  - action: utter_goodbye  
+
+- story: corona symtoms
+  steps:
+  - intent: corona_symptoms
+  - action: utter_corona_symptoms
+  - intent: goodbye
+  - action: utter_goodbye  
+
+- story: corona last on surface
+  steps:
+  - intent: corona_last
+  - action: utter_corona_last
+  - intent: goodbye
+  - action: utter_goodbye  
+
+- story: corona from pets
+  steps:
+  - intent: corona_pets
+  - action: utter_corona_pets
+  - intent: goodbye
+  - action: utter_goodbye  

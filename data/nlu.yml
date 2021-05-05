@@ -1,0 +1,111 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - yoyo
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: corona_intro
+  examples: |
+    - what is corona virus?
+    - what is covid?
+    - corona?
+    - covid?
+
+- intent: corona_spread
+  examples: |
+    - how does virus spread?
+    - what is community spread?
+    -can mosquitoes and ticks spread the virus that cause covid / corona?
+    
+- intent: corona_Prevention
+  examples: |
+    - How to Protect ourself?
+    - does mask prevent us from corona?
+    - is sanitiser and handwash helpful?
+    - precautions from corona covid?
+    - safe from covid corona ?
+    
+- intent: corona_homesick
+  examples: |
+    - i am feeling little sick?
+    - i am having fever? what do i do?
+    - i can not taste food ?
+    - i can not smell anything ?
+    - i am having minor headache ?
+    - sick
+    - fever
+    - feeling low
+    - unwell
+    - trouble in breathing?
+    - chills
+    - muscle pain
+    - headache
+    - cough
+    - sore throat, congestion, or a runny nose
+    - tiredness
+    - nausea or vomiting
+    - how to treat corona at home?
+
+- intent: contact_tracing
+  examples: |
+    - what is contact tracing?
+    - what will happen to my personal information during contact tracing?
+    - how is goverment prevent corona from outbreaking?
+    - preventing outbreak?
+    - healthdept doing to control corona?
+    
+- intent: corona_symptoms
+  examples: |
+    - what are corona symtoms?
+    - how to identify corona?
+    - symtoms ?
+        
+- intent: corona_last
+  examples: |
+    - How long does the virus last on surfaces?    
+    - how long corona live?
+    - how much time covid survive on surface?
+
+        
+- intent: corona_pets
+  examples: |
+    - Can I catch COVID-19 from my pet?
+    - corona from my dog?
+    - corona from cat?    
+    
+                
